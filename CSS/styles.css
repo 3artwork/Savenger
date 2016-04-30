@@ -17,6 +17,9 @@ td {
 	border: solid 3px white;
 	cursor: pointer;
 }
+.load:hover div {
+	background-color: #8FE3AD;
+}
 .long {
 	width: 300px;
 }
@@ -31,10 +34,10 @@ ul {
 	list-style: none;
 }
 li, h1 {
-	color: lightgreen;
+	color: #8FE3AD;
 }
 li span {
-	text-align: right;
+	margin-left: 5px;
 	display: inline-block;
 	width: 100px;
 }
@@ -46,9 +49,10 @@ div.stats_container {
 	width: 300px;
 	background-color: gray;
 }
-div {
-	width: 155px;
-	background-color: lightgreen;
+.stats_container div {
+	width: 50%;
+	background-color: #8FE3AD;
+	border-right: 1px solid #1FA9FF;
 }
 .stat_num {
 	width: 30px;
